@@ -534,6 +534,7 @@
 				TargetAttributes = {
 					6D3E009E1E0CBB79008FE2D2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NAX24929CJ;
 					};
 					6D3E00B21E0CBB7A008FE2D2 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -807,6 +808,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SampleAppSw2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.cathaylife.SampleAppSw2;
@@ -818,6 +820,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SampleAppSw2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.cathaylife.SampleAppSw2;
@@ -903,6 +906,7 @@
 				6D3E00BE1E0CBB7A008FE2D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D3E00BF1E0CBB7A008FE2D2 /* Build configuration list for PBXNativeTarget "SampleAppSw2Tests" */ = {
 			isa = XCConfigurationList;
@@ -911,6 +915,7 @@
 				6D3E00C11E0CBB7A008FE2D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D3E018C1E0CBC4B008FE2D2 /* Build configuration list for PBXNativeTarget "CucumberishUITest" */ = {
 			isa = XCConfigurationList;
@@ -919,6 +924,7 @@
 				6D3E018E1E0CBC4B008FE2D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
