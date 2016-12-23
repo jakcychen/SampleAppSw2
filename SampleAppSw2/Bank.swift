@@ -12,6 +12,6 @@ class Bank: NSObject
 {
     static func CalculateBalance(capital: Float!, interest: Float!)->Float!
     {
-        return capital + capital * interes + 10
+        return capital + capital * interest + 10
     }
 }
