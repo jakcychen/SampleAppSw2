@@ -16,12 +16,12 @@ class CucumberishUITest: NSObject {
             
             let capitalTextField = app.textFields["Capital"]
             capitalTextField.tap()
-            capitalTextField.typeText("1000")
+            capitalTextField.typeText("1000\n")
             
             And("annual interest rate is 0.05") { (args, userInfo) -> Void in
                 let interestTextField = app.textFields["Interest"]
                 interestTextField.tap()
-                interestTextField.typeText("0.05")
+                interestTextField.typeText("0.05\n")
             }
             
             When("calculate interest") { (args, userInfo) -> Void in
