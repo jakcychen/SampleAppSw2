@@ -21,9 +21,10 @@ class SampleAppSw2Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testExample()
+    {
+        let balance = Bank.CalculateBalance(1000, interest: 0.05)
+        XCTAssertEqual(balance, 1050)
     }
     
     func testPerformanceExample() {

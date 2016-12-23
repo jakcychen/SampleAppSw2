@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BDDUITest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>CucumberishUITest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>SampleAppSw2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>6D3E00B21E0CBB7A008FE2D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D3E00CE1E0CBBEC008FE2D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D3E01821E0CBC4B008FE2D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
