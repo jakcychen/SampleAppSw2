@@ -24,8 +24,8 @@ class SampleAppSw2Tests: XCTestCase {
     func testExample()
     {
         let balance = Bank.CalculateBalance(1000, interest: 0.05)
-//        XCTAssertEqual(balance, 1050)
-        XCTAssertTrue(false)
+        XCTAssertEqual(balance, 1050)
+//        XCTAssertTrue(false)
     }
     
     func testPerformanceExample() {

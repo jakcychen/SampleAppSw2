@@ -30,8 +30,8 @@ class CucumberishUITest: NSObject {
             
             Then("balance becomes 1050.00") { (args, userInfo) -> Void in
                 
-                XCTAssertEqual(app.staticTexts["Balance"].label, "1050.0")
-//                XCTAssertTrue(false)
+//                XCTAssertEqual(app.staticTexts["Balance"].label, "1050.0")
+                XCTAssertTrue(false)
             }
         }
         
